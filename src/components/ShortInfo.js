@@ -1,17 +1,16 @@
 import React from "react";
+import Link from "../Routing/Link";
 
 const ShortInfo = (props) => {
   return (
     <div className="col-md">
       <div className="text-center text-lg-start">
-        <h1>{props.header}</h1>
-        <p className="lead">{props.content}</p>
-        <button
-          className="btn btn-primary btn-lg mb-5"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          {props.btnText}
+        <h2>{props.header}</h2>
+        <p>{props.content}</p>
+        <button className="btn btn-primary mb-5">
+          <Link className="text-white text-decoration-none" href={props.href}>
+            {props.btnText}
+          </Link>
         </button>
       </div>
     </div>

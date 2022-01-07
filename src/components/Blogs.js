@@ -1,6 +1,6 @@
 import React from "react";
 
-const OurTeams = (props) => {
+const Blogs = (props) => {
   return (
     <div>
       <div className="h1 text-center">Blogs</div>
@@ -66,4 +66,4 @@ const OurTeams = (props) => {
   );
 };
 
-export default OurTeams;
+export default Blogs;

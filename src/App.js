@@ -1,23 +1,40 @@
 import React from "react";
-// import Carousal from "./components/Carousal";
-import Navbar from "./components/Navbar";
-import SelfDefence from "./components/SelfDefence";
-import LandingPage from "./components/LandingPage";
-import Education from "./components/Education";
-import NGO from "./components/NGO";
-import OurTeams from "./components/Blogs";
 import Footer from "./components/Footer";
+import WomenInTech from "./views/WomenInTech";
+import Home from "./views/Home";
+import ReactNavbar from "./components/ReactNavbar";
+import SelfDefence from "./views/self_defence/SelfDefence";
+import Route from "./Routing/Route";
+import WomenActivists from "./views/WomenActivists";
+import WomenSafetyLaws from "./views/WomenSafetyLaws";
+import NGO from "./views/NGO";
+import NewsList from "./components/news/NewsList"
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      {/* <Carousal /> */}
-      <LandingPage />
-      <SelfDefence />
-      <Education />
-      <NGO />
-      <OurTeams />
+      <ReactNavbar />
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/selfdefence">
+        <SelfDefence />
+      </Route>
+      <Route path="/womenintech">
+        <WomenInTech />
+      </Route>
+      <Route path="/womenactivists">
+        <WomenActivists />
+      </Route>
+      <Route path="/womensafety">
+        <WomenSafetyLaws />
+      </Route>
+      <Route path="/ngo">
+        <NGO />
+      </Route>
+      <Route path="/newslist">
+        <NewsList />
+      </Route>
       <Footer />
     </div>
   );

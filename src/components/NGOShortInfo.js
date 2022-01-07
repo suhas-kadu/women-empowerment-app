@@ -13,6 +13,7 @@ const NGO = (props) => {
                 towards Women's Empowerment, Self defence for Women, Girl child
                 education."
               btnText="Learn more"
+              href="ngo"
             />
             <ShortInfo
               header="Support Us"
@@ -20,6 +21,7 @@ const NGO = (props) => {
               towards Women's Empowerment, Self defence for Women, Girl child
               education."
               btnText="Proceed"
+              href="/"
             />
           </div>
         </div>

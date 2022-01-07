@@ -5,7 +5,7 @@ import logo2 from "../images/w2_logo.svg";
 const LandingPage = (props) => {
   return (
     <div>
-      <section className="bg-dark text-light p-5 text-center text-sm-start">
+      <section className="bg-light text-dark p-5 text-center text-sm-start">
         <div className="container">
           <div className="d-sm-flex align-items-center justify-content-between">
             <div>

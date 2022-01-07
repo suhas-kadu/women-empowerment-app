@@ -18,6 +18,7 @@ const Education = (props) => {
                 inequality."
               btnText="Learn more"
               //   padding="5"
+              href="/"
             />
             <ImageComponent
               imageUrl={

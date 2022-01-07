@@ -2,12 +2,12 @@ import React from "react";
 import ImageComponent from "./ImageComponent";
 import ShortInfo from "./ShortInfo";
 
-const SelfDefence = (props) => {
+const SelfDefenceShortInfo = (props) => {
   return (
     <div>
       <section className="p-5 text-center text-sm-start">
         <div className="container">
-          <div className="row justify-content-between align-items-center">
+          <div className="row justify-content-between align-items-center flex-row-reverse">
             <ShortInfo
               header="Self Defence"
               content="In a January 2018 survey of 1,000 women nationwide, 81 percent
@@ -17,6 +17,7 @@ const SelfDefence = (props) => {
                 in an unwelcome way, while 27 percent of women survived sexual
                 assault. That's why Self Defence becomes important"
               btnText="Learn more"
+              href="/selfdefence"
               // padding="5"
             />
 
@@ -28,4 +29,4 @@ const SelfDefence = (props) => {
   );
 };
 
-export default SelfDefence;
+export default SelfDefenceShortInfo;
