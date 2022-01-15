@@ -2,7 +2,9 @@ import React from "react";
 
 const Footer = (props) => {
   return (
-    <div className="text-center bg-light py-3">
+    <div 
+    // style={{backgroundColor:"#231a4f"}}
+     className="text-center text-dark py-3">
       <h3>Connect with us</h3>
       <a href="#">
         <i className="bi bi-twitter text-dark  m-1 px-3"></i>

@@ -5,7 +5,9 @@ import ImageComponent from "./ImageComponent";
 const WomenInTechShortInfo = (props) => {
   return (
     <div>
-      <section className="p-5 text-center text-sm-start">
+      <section 
+      // style={{backgroundColor:"#e7edfd"}}
+       className="p-5 text-center text-sm-start">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <ShortInfo

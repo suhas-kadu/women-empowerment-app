@@ -7,7 +7,7 @@ const ShortInfo = (props) => {
       <div className="text-center text-lg-start">
         <h2>{props.header}</h2>
         <p>{props.content}</p>
-        <button className="btn btn-primary mb-5">
+        <button className="btn btn-primary mb-5 rounded-pill">
           <Link className="text-white text-decoration-none" href={props.href}>
             {props.btnText}
           </Link>

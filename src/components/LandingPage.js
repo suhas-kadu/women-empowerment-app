@@ -5,7 +5,9 @@ import logo2 from "../images/w2_logo.svg";
 const LandingPage = (props) => {
   return (
     <div>
-      <section className="bg-light text-dark p-5 text-center text-sm-start">
+      <section 
+      style={{backgroundColor: "#e7edfd"}} 
+      className=" text-dark p-5 text-center text-sm-start">
         <div className="container">
           <div className="d-sm-flex align-items-center justify-content-between">
             <div>
@@ -15,13 +17,13 @@ const LandingPage = (props) => {
               <p className="lead my-4 me-5 text-lg-end text-sm-center">
                 - Sylvester McNutt III
               </p>
-              <button
+              {/* <button
                 className="btn btn-primary btn-lg"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
                 Read more
-              </button>
+              </button> */}
             </div>
 
             <img

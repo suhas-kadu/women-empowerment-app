@@ -8,11 +8,13 @@ import Route from "./Routing/Route";
 import WomenActivists from "./views/WomenActivists";
 import WomenSafetyLaws from "./views/WomenSafetyLaws";
 import NGO from "./views/NGO";
-import NewsList from "./components/news/NewsList"
+import NewsList from "./components/news/NewsList";
+import Login from "./views/Login";
+import Signup from "./views/Signup";
 
 const App = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"$d3e5e9"}}>
       <ReactNavbar />
       <Route path="/">
         <Home />
@@ -34,6 +36,13 @@ const App = () => {
       </Route>
       <Route path="/newslist">
         <NewsList />
+      </Route>
+      <Route path="/login">
+        <Login />
+      </Route>
+
+      <Route path="/signup">
+        <Signup />
       </Route>
       <Footer />
     </div>

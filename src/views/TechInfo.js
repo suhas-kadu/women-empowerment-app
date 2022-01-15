@@ -20,7 +20,7 @@ const TechInfo = ({ imgurl, title, content, link, reverse }) => {
           <a
             href={link}
             target="_blank"
-            className="text-white text-decoration-none bg-primary text-center py-2 rounded"
+            className="text-white text-decoration-none bg-primary text-center py-2 rounded-pill"
             rel="noreferrer"
           >
             Learn more

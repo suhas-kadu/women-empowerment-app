@@ -16,10 +16,12 @@ const Home = () => {
       <SelfDefenceShortInfo />
       {/* <Education /> */}
       <WomenInTechShortInfo />
-      <NGOShortInfo />
-      <div className="text-center mb-5">
-        <h2 className="mb-3">Latest News In Women's Empowerment</h2>
-        <Button>
+      {/* <NGOShortInfo /> */}
+      <div 
+      // style={{backgroundColor:"#e7edfd"}} 
+      className="text-center py-5">
+        <h2 className="my-3">Latest News In Women's Empowerment</h2>
+        <Button className="rounded-pill">
           <Link className="text-decoration-none text-white" href="/newslist">
             Checkout
           </Link>
